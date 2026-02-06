@@ -6,8 +6,8 @@ on:
       - main
       - 'dev-*' # This will trigger the workflow for any branch that starts with 'dev-'
       - 'feature/**' # This will trigger the workflow for any branch that is in the 'feature' directory
-    # paths:-ignore:
-    #   - '.github/workflows/events.yml' # This will ignore changes to the workflow file itself
+    paths-ignore:
+      - '.github/workflows/*' # This will ignore changes to the workflow file itself
    
 jobs:
   build:
