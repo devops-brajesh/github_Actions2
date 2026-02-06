@@ -5,6 +5,8 @@ on:
     branches: 
       - main
       - dev
+      - Manual_Events
+  workflow_dispatch:
    
 jobs:
   build:
