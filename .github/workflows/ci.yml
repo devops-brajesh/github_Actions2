@@ -6,6 +6,8 @@ on:
       - main
       - dev
   workflow_dispatch:
+
+  # Schedule the workflow to run every day at 12:00 PM
    
 jobs:
   build:
